@@ -1,0 +1,76 @@
+.main-nav{
+    margin: 0px auto;
+    min-height: 50px;    /*it is the minimum height is 50px but can be adjusted by the value */
+    width: 100%;
+    border-top: 2px solid #ef8236;
+    box-shadow: 0px 1px 5px rgb(74, 72, 72);
+    position: fixed;
+    z-index: 5;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #f8f9f9;
+}
+.navbar{
+    height: 100%;
+    min-width: 85%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.nav-logo{
+    padding: 5px 25px;
+}
+.nav-item{
+    margin: 5px ,3px;
+    font-size: small;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(69,69,69);
+    transition: 0.2s;
+    
+    
+}
+.nav-btn{
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 15px;
+    position: relative;
+    top: 8px;
+}
+.nav-item:hover{
+    background-color: rgb(230, 228, 228);
+}
+.navbar form{
+    flex-grow: 1;
+    padding: 8px 12px;
+    position: relative;
+}
+.navbar form input{
+    min-width: 80%;
+    margin: 0;
+    padding: 8px 10px 8px 32px;
+    font-size: 13px;
+    border: solid 1px black;
+    border-radius: 3px;
+}
+.search-icon{
+    position: absolute;
+    left: 50px;
+    top: 15px;
+}
+.nav-links{
+    margin: 7px 0px;
+    padding: 7px 13px;
+    border: solid 1px blue;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #e7f8fe;
+
+}
+nav-links{
+    background-color: #d3e4eb;
+}
